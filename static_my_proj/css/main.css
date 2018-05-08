@@ -338,7 +338,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .img{
   width: 100%;
 }
-.row{
+.margin{
   padding-top: 40px;
 }
 .info h2{
