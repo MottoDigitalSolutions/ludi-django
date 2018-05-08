@@ -2,10 +2,143 @@
 {% load static %}
 
 {% block content %}
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="http://ludi.com.mx/wp-content/uploads/2017/11/home-slide-ludi-especialistas.jpg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>ESPECIALISTAS</h5>
+        <p>Para que encuentres el Check Up perfecto para tí</p>
+        <button type="button" class="btn btn-carousel">CONÒCENOS</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://ludi.com.mx/wp-content/uploads/2017/11/home-slide-ludi-prevencion.jpg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>PREVENCIÒN</h5>
+        <p>Para que disfrutes el presente y todos los momentos que te queda por vivir</p>
+        <button type="button" class="btn btn-carousel">CONOCE MÁS</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://ludi.com.mx/wp-content/uploads/2017/11/home-slide-ludi-calidad.jpg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CALIDAD</h5>
+        <p>Para diagnosticar con excelencia y ganarnos tu preferencia</p>
+        <button type="button" class="btn btn-carousel">CONÓCENOS</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://ludi.com.mx/wp-content/uploads/2017/12/home-slide-technology.jpg" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>TECNOLOGÌA</h5>
+        <p>para ganar precisión y confiabilidad en tus resultados</p>
+        <button type="button" class="btn btn-carousel">VER CHECK UPS</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://ludi.com.mx/wp-content/uploads/2017/11/home-slide-ludi-experiencia.jpg" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>EXPERIENCIA</h5>
+        <p>Para que tu salud siempre este en buenas manos</p>
+        <button type="button" class="btn btn-carousel">CONOCE MÀS</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://ludi.com.mx/wp-content/uploads/2017/11/home-slide-ludi-calidez.jpg">
+      <div class="carousel-caption d-none d-md-block right">
+        <h5>CALIDEZ</h5>
+        <p>para que te sientas tan cómodo como en casa</p>
+        <button type="button" class="btn btn-carousel">CONÓCENOS</button>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-<div class="row">
-  <div class="col">
-    <h1>Home</h1>
+<div class="sectionTwo">
+  <h1>¿YA TE HICISTE UN CKECK UP?</h1>
+  <h2>Cuando te haces un Check Up intercambias unas horas de tu tiempo por años con la gente que más quieres, haciendo lo que más disfrutas.</h2>
+  <div>
+    <h3>¿POR QUÉ ES IMPORTANTE HACERSE UN CHECK UP MÉDICO INTEGRAL?</h3>
+    <ul>
+      <li class="lista">La detección temprana de enfermedades para proporcionar las recomendaciones y orientaciones para su manejo, control y tratamiento oportuno.</li>
+      <li class="lista">Identificar factores de riesgo que puedan propiciar el desarrollo a futuro de enfermedades crónico-degenerativas aún no presentes.</li>
+      <li class="lista">Diseñar las medidas necesarias para mantener y mejorar la calidad de vida.</li>
+      <li class="lista">Es dinámico y confiable. Te da tranquilidad.</li>
+      <li class="lista">Protocolos diseñados de acuerdo a tu edad y género.</li>
+    </ul><br>
+    <button class="btn conocemas" type="button">CONOCE MÁS</button>
+  </div>
+</div>
+
+<div class="container-fluid color">
+  <h1>CHECK UPS A TU MEDIDA</h1>
+  <h2>Déjanos colaborar con la tranquilidad de tu futuro y la de tu familia.</h2>
+  <div class="row size">
+    <div class="col-md-4 col-sm-6 ">
+        <div class="down">
+          <img class="icon-size"src="http://ludi.com.mx/wp-content/uploads/2016/09/icono-check-up-integral.png"><br><br>
+          <h4>CHECK UP INTEGRAL</h4>
+          <p>Un Check Up con los estudios generales por los médicos especialistas internos. Conoce cuál es el adecuado para ti.</p><br>
+          <button type="button" class="btn detalle">VER DETALLES</button>
+        </div><br><br>
+        <div class="down">
+          <img class="icon-size" src="http://ludi.com.mx/wp-content/uploads/2016/09/icono-check-up-plus.png"><br><br>
+          <h4>CHECK UP PLUS</h4>
+          <p>Check Up en el que incluimos un otros estudios como el TAC; un arma poderosa para detectar varias enfermedades.</p><br>
+          <button type="button" class="btn detalle">VER DETALLES</button>
+        </div>
+    </div><br><br>
+    <div class="col-md-4 col-sm-6 margen">
+      <div class="down">
+        <img class="icon-size" src="http://ludi.com.mx/wp-content/uploads/2016/09/icono-check-up-especialidad.png"><br><br>
+        <h4>CHECK UP ESPECIALIDAD</h4>
+        <p>Check Ups realizados por nuestros especialistas; pediatrico, cardiovascular, pulmonar, diabetes, cancer...</p><br>
+        <button type="button" class="btn detalle">VER DETALLES</button>
+      </div><br><br>
+      <div class="down">
+        <img class="icon-size" src="http://ludi.com.mx/wp-content/uploads/2016/09/icono-check-up-genetest.png"><br><br>
+        <h4>CHECK UP GENETEST</h4>
+        <p>Ahora puedes estar a la delantera en cuanto a salud se refiere gracias al nuevo Check Up con Genetest de LUDI.</p><br>
+        <button type="button" class="btn detalle">VER DETALLES</button>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <img class="img-size" src="http://ludi.com.mx/wp-content/uploads/2017/11/home-cta-que-es-un-check-up.png">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid sectionFour">
+  <h1>EMPRESAS</h1>
+  <h2>Ludi al servicio de empresas</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img" src="http://ludi.com.mx/wp-content/uploads/2017/11/home-empresas.png" alt="">
+      </div>
+      <div class="col-sm-6 info">
+        <h2>CHECK UPS PARA TU EQUIPO DE TRABAJADORES</h2>
+        <p>Toda persona que forma parte de un equipo de trabajo, aspira a sentirse apreciado y atendido por su empresa. La presencia de beneficios que buscan la mejora de la salud y el bienestar de los trabajadores se traduce en mayor lealtad y mejor ambiente laboral. Además, cuando tus colaboradores están sanos también aumenta la productividad.</p>
+        <button type="button" name="button" class="btn conoceFour">CONOCE MÁS</button>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}

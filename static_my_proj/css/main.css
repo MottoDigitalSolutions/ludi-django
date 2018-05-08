@@ -14,6 +14,10 @@ body{
   margin: 0;
   padding: 0;
 }
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
 .area{
   float: right;
   margin-right: 5%;
@@ -22,7 +26,7 @@ body{
   width: 10%;
   height: 10%;
   margin-right:10px;
-
+  margin-top: -10px;
 }
 .icon{
   width: 150px;
@@ -75,7 +79,7 @@ ul li .nav-link{
 .dropdown-item{
   color:#ffffff;
   font-family: 'Open Sans Condensed',sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
 }
 .dropdown-item:hover{
@@ -150,6 +154,9 @@ h4  {
   display: inline-block;
   padding: 10px;
 }
+.link:hover{
+  color:#bfd000;
+}
 
 .footer_botom{
   height: 6vh;
@@ -172,3 +179,188 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 
 /* FOOTER ENDS */
 
+
+/* HOME */
+
+.d-block{
+  height: 65vh;
+  width: 100%;
+}
+.carousel-caption h5{
+  color:#bfd000;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+}
+.carousel-caption p{
+  color:#bfd000;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.btn-carousel{
+  background-color: #ffffff;
+  color: #ff6611;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.btn-carousel:hover{
+  background-color: #ff6611;
+  color: #ffffff;
+}
+
+.sectionTwo{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/home-prevencion-2.jpg);
+  padding-top: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  font-family: 'Open Sans Condensed',sans-serif;
+  width: 100%;
+}
+.sectionTwo h1{
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+}
+.sectionTwo h2{
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  font-size:1.3rem;
+}
+.sectionTwo div{
+  margin-top: 100px;
+  margin-left: 50%;
+  width: 40%;
+}
+.sectionTwo div h3{
+  text-align: center;
+  color: #666;
+}
+.sectionTwo div ul{
+  margin-top: 40px;
+}
+.sectionTwo div ul li{
+  color: #262626;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.conocemas{
+  margin-left: 30%;
+  background-color: #bfd000;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+  width:35%;
+}
+.conocemas:hover{
+  background-color:  #a4b300;
+}
+@media only screen and (max-width:700px) {
+  .sectionTwo div{
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.down h4{
+  color:#666;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+}
+.down p{
+  color:#666;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 22px;
+}
+
+.color{
+  background-color: #f5f5f5;
+  margin-top: -20px;
+  padding-top: 100px;
+
+}
+.color h1{
+  text-align: center;
+  font-weight: 600;
+}
+.color h2{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.size{
+  margin-left: 15%;
+  width: 70%;
+  max-width: 1700px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.img-size{
+  width: 100%;
+  margin-top: 50px;
+}
+.icon-size{
+  width: 60px;
+  height: 70px;
+}
+.detalle{
+  background-color: #bfd000;
+  color: #fff;
+  font-weight: 300;
+  padding: 5px 15px;
+  font-family: 'Open Sans Condensed';
+}
+.detalle:hover{
+  background-color:  #a4b300;
+}
+
+.sectionFour{
+  background-color: #bfd000;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.sectionFour h1{
+  text-align: center;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.sectionFour h2{
+  text-align: center;
+  font-family: 'Open Sans Condensed',sans-serif;
+  margin-top: 20px;
+  color: #fff;
+}
+.img{
+  width: 100%;
+}
+.row{
+  padding-top: 40px;
+}
+.info h2{
+  text-align: left;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.info p{
+  text-align: left;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.conoceFour{
+  background-color: #fff;
+  color: #bfd000;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 600;
+  padding: 15px 15px;
+  margin-top: 10px;
+}
+.conoceFour:hover{
+  background-color:  #a4b300;
+}

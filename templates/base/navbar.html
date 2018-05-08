@@ -9,16 +9,16 @@
 
     <!-- NAV BAR -->
     <div class="row respo">
-        <div class="col-6">
+        <div class="col-sm-6">
             <img class="icon" src="{% static 'images/ludi.png' %}" alt="">
         </div>
-        <div class="col-6">
-            <div class="col-12"><p class="pri-info">{{correo}} &nbsp; | {{numero}} &nbsp; |
+        <div class="col-sm-6" >
+            <div class="col-12"><p class="pri-info">informes@ludi.com.mx &nbsp; |  55 5545 1509  &nbsp; |
                 &nbsp;
-                <i class="redes fab fa-facebook-f"></i>&nbsp;
-                <i class="redes fab fa-linkedin-in"></i>&nbsp;
-                <i class="redes fab fa-twitter"></i>&nbsp;
-                <i class="redes fab fa-youtube"></i>
+                <i class="fa fa-facebook-f redes"></i>&nbsp;
+                <i class="fa fa-linkedin-in redes"></i>&nbsp;
+                <i class="fa fa-twitter redes"></i>&nbsp;
+                <i class="fa fa-youtube redes"></i>
             </p>
             </div>
             <div class="row area">
@@ -39,17 +39,17 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="iconResponsive">
-        <img src="./assets/images/icon-mobile.png" alt="">
+        <img src="{% static 'images/icon-mobile.png' %}" alt="">
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto nav-fill">
 
             <li class="nav-item {% if request.path == home_url %} active {% endif %}">
-                <a class="nav-link" href="{{ home_url }}">Inicio</a>
+                <a style="color:#fff;" class="nav-link" href="{{ home_url }}">Inicio</a>
             </li>
 
             <li class="nav-item {% if request.path == promociones_url %} active {% endif %}">
-                <a class="nav-link" href="{{ promociones_url }}">Promociones</a>
+                <a style="color:#fff;" class="nav-link" href="{{ promociones_url }}">Promociones</a>
             </li>
 
             <!--<li class="nav-item dropdown">-->
@@ -69,19 +69,19 @@
             <!--</li>-->
 
             <li class="nav-item {% if request.path == empresas_url %} active {% endif %}">
-                <a class="nav-link" href="{{ empresas_url }}">Empresas </a>
+                <a style="color:#fff;" class="nav-link" href="{{ empresas_url }}">Empresas </a>
             </li>
 
             <li class="nav-item {% if request.path == nosotros_url %} active {% endif %}">
-                <a class="nav-link" href="{{ nosotros_url }}">Nosotros </a>
+                <a style="color:#fff;" class="nav-link" href="{{ nosotros_url }}">Nosotros </a>
             </li>
 
             <li class="nav-item {% if request.path == contact_url %} active {% endif %}">
-                <a class="nav-link" href="#">Blog </a>
+                <a style="color:#fff;" class="nav-link" href="#">Blog </a>
             </li>
 
             <li class="nav-item {% if request.path == contacto_url %} active {% endif %}">
-                <a class="nav-link" href="{{ contacto_url }}">Contacto </a>
+                <a style="color:#fff;" class="nav-link" href="{{ contacto_url }}">Contacto </a>
             </li>
 
         </ul>
