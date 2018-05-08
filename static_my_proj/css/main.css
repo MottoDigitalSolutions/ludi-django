@@ -43,7 +43,6 @@ body{
 .sec-info{
   color: #131313;
   margin-right: 15px;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-size: 14px;
 }
 .agen{
@@ -67,7 +66,7 @@ background: linear-gradient(to left, #ff1085,#ff4b37,#e5920a ); /* W3C, IE 10+/ 
 }
 ul li .nav-link{
   color:#ffffff;
-  font-family: 'Open Sans Condensed',sans-serif;
+  font-family: 'Open Sans condensed',sans-serif;
   font-weight: 600;
   font-size: 22px;
 }
@@ -78,7 +77,7 @@ ul li .nav-link{
 }
 .dropdown-item{
   color:#ffffff;
-  font-family: 'Open Sans Condensed',sans-serif;
+  font-family: 'Open Sans condensed',sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
@@ -124,7 +123,6 @@ ul li .nav-link{
   background: #ffb3b3;
   background: -webkit-linear-gradient(160deg, #bfd000 0%,#ff6611 50%,#ff0099 100% );
   background: linear-gradient(160deg, #bfd000 0%,#ff6611 50%,#ff0099 100% );
-  font-family: 'Open Sans',sans-serif;
 }
 
 
@@ -188,22 +186,20 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 }
 .carousel-caption h5{
   color:#bfd000;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 700;
   font-size: 54px;
 }
 .carousel-caption p{
   color:#bfd000;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 700;
   font-size: 24px;
 }
 .btn-carousel{
   background-color: #ffffff;
   color: #ff6611;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 700;
   font-size: 18px;
+  font-family: 'Open Sans ',sans-serif;
 }
 .btn-carousel:hover{
   background-color: #ff6611;
@@ -217,7 +213,6 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 80px;
-  font-family: 'Open Sans Condensed',sans-serif;
   width: 100%;
 }
 .sectionTwo h1{
@@ -252,8 +247,9 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   margin-left: 30%;
   background-color: #bfd000;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   padding: 10px;
+  font-family: 'Open Sans ',sans-serif;
   width:35%;
 }
 .conocemas:hover{
@@ -268,13 +264,11 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 
 .down h4{
   color:#666;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 700;
 }
 .down p{
   color:#666;
-  font-family: 'Open Sans Condensed',sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .color{
@@ -310,9 +304,9 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .detalle{
   background-color: #bfd000;
   color: #fff;
-  font-weight: 300;
+  font-weight: 700;
   padding: 5px 15px;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans ',sans-serif;
 }
 .detalle:hover{
   background-color:  #a4b300;
@@ -325,13 +319,11 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 }
 .sectionFour h1{
   text-align: center;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 600;
   color: #fff;
 }
 .sectionFour h2{
   text-align: center;
-  font-family: 'Open Sans Condensed',sans-serif;
   margin-top: 20px;
   color: #fff;
 }
@@ -343,24 +335,25 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 }
 .info h2{
   text-align: left;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 600;
   color: #fff;
+  line-height: 35px;
+  font-style: normal;
 }
 .info p{
   text-align: left;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 600;
   color: #fff;
 }
 .conoceFour{
   background-color: #fff;
-  color: #bfd000;
-  font-family: 'Open Sans Condensed',sans-serif;
+  color: #ff782d;
+  font-family: 'Open Sans ',sans-serif;
   font-weight: 600;
   padding: 15px 15px;
   margin-top: 10px;
+  
 }
 .conoceFour:hover{
-  background-color:  #a4b300;
+  opacity: 0.8;
 }
