@@ -1,0 +1,90 @@
+{% load static %}
+
+
+{% url 'home' as home_url %}
+{% url 'promociones' as promociones_url %}
+{% url 'empresas' as empresas_url %}
+{% url 'nosotros' as nosotros_url %}
+{% url 'contacto' as contacto_url %}
+
+    <!-- NAV BAR -->
+    <div class="row respo">
+        <div class="col-6">
+            <img class="icon" src="{% static 'images/ludi.png' %}" alt="">
+        </div>
+        <div class="col-6">
+            <div class="col-12"><p class="pri-info">{{correo}} &nbsp; | {{numero}} &nbsp; |
+                &nbsp;
+                <i class="redes fab fa-facebook-f"></i>&nbsp;
+                <i class="redes fab fa-linkedin-in"></i>&nbsp;
+                <i class="redes fab fa-twitter"></i>&nbsp;
+                <i class="redes fab fa-youtube"></i>
+            </p>
+            </div>
+            <div class="row area">
+                <img class="reloj" src="http://ludi.com.mx/wp-content/uploads/2016/09/icono-horario.png">
+                <div class="sec-info">
+                    <p class=""><strong> HORARIO </strong><br>
+                        Lunes a sábado de 6:30 am a 3 pm</p>
+                </div>
+                <div class="btn agen">
+                    <span class="fa fa-calendar-alt"></span>&nbsp;&nbsp;AGENDA TU CITA
+                </div>
+            </div>
+        </div>
+    </div>
+<nav class="navbar navbar-expand-lg navbar-light nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="iconResponsive">
+        <img src="./assets/images/icon-mobile.png" alt="">
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav-fill">
+
+            <li class="nav-item {% if request.path == home_url %} active {% endif %}">
+                <a class="nav-link" href="{{ home_url }}">Inicio</a>
+            </li>
+
+            <li class="nav-item {% if request.path == promociones_url %} active {% endif %}">
+                <a class="nav-link" href="{{ promociones_url }}">Promociones</a>
+            </li>
+
+            <!--<li class="nav-item dropdown">-->
+                <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"-->
+                   <!--aria-haspopup="true" aria-expanded="false">-->
+                    <!--{{check}}-->
+                <!--</a>-->
+                <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+                    <!--<a class="dropdown-item" [routerLink]="['/prevencion']">{{preven}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{que}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{empresarial}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{integral}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{plus}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{gene}}</a>-->
+                    <!--<a class="dropdown-item" href="#">{{espe}}</a>-->
+                <!--</div>-->
+            <!--</li>-->
+
+            <li class="nav-item {% if request.path == empresas_url %} active {% endif %}">
+                <a class="nav-link" href="{{ empresas_url }}">Empresas </a>
+            </li>
+
+            <li class="nav-item {% if request.path == nosotros_url %} active {% endif %}">
+                <a class="nav-link" href="{{ nosotros_url }}">Nosotros </a>
+            </li>
+
+            <li class="nav-item {% if request.path == contact_url %} active {% endif %}">
+                <a class="nav-link" href="#">Blog </a>
+            </li>
+
+            <li class="nav-item {% if request.path == contacto_url %} active {% endif %}">
+                <a class="nav-link" href="{{ contacto_url }}">Contacto </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<!-- NAV BAR END -->
