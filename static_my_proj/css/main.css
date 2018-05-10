@@ -506,3 +506,24 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .p{
   font-size: 12px;
 }
+.items{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: auto;
+  padding-bottom: 30px;
+  width: 100%;
+  white-space: nowrap;
+  user-select: none;
+  transition: all 0.2s;
+  position: relative;
+}
+.item{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.item:hover{
+  opacity: 1;
+}
