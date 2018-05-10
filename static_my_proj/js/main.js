@@ -26,6 +26,22 @@ Slider.addEventListener('mousemove', (e) => {
   e.preventDefault();
   const x = e.screenX - Slider.offsetLeft;
   const walk = x - startX;
-  
+
   Slider.scrollLeft = scrollLeft - walk;
+});
+
+
+$(document).ready(function(){
+
+   $('.boton').on('click', function(){
+
+    if ($(this).hasClass('active')){
+      $(this).css('background-color','#f61');
+      $(this).removeClass('active');
+    }else{
+      $(this).css('background-color','#ccc');
+      $(this).addClass('active');
+    }
+
+   });
 });
