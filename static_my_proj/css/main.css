@@ -179,7 +179,6 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 
 
 /* HOME */
-
 .d-block{
   height: 65vh;
   width: 100%;
@@ -352,8 +351,158 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   font-weight: 600;
   padding: 15px 15px;
   margin-top: 10px;
-  
+
 }
 .conoceFour:hover{
   opacity: 0.8;
+}
+
+.back{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/bg-testimonios-2.jpg);
+  padding-top: 180px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 180px;
+  width: 100%;
+  height: auto;
+}
+.frases{
+  width: 80%;
+  margin-left: 10%;
+}
+.colorIcon{
+  color: #bfd000;
+}
+.test{
+  color: #333;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.quoteLeft{
+  font-size: 55px;
+  color: #ccc;
+  text-align: center;
+}
+
+.quoteRight{
+  font-size: 55px;
+  color: #ccc;
+  text-align: center;
+}
+.frasesp{
+  color: #111;
+  line-height: 1.666666666666667em;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.frasesptwo{
+  color: #111;
+  line-height: 1.666666666666667em;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.frasesptwo span{
+  color: #bfd000;
+}
+
+.color{
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img{
+  width: 100%;
+}
+.contenedor{
+  background-color: #ffffff;
+  margin-left: 5px;
+  padding-bottom: 20px;
+}
+.contenedor h3{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 600;
+  color: #666;
+  font-size: 24px;
+}
+.hr{
+  width: 20px;
+  height: 2px;
+  background-color: #666;
+  margin-left: 10px;
+}
+.contenedor p{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Open Sans Condensed',sans-serif;
+  color: #666;
+  font-size: 18px;
+}
+.logo{
+  width: 40px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.fecha{
+  font-size: 10px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.user{
+  font-size: 10px;
+  margin-left: 10px;
+}
+.blog{
+  margin-left: 45%;
+  background-color: #bfd000;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px;
+  margin-top: 50px;
+}
+.blog:hover{
+  background-color:  #a4b300;
+}
+
+.backk{
+  background-color: #bfd000;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.form{
+  text-align: center;
+  color: white;
+}
+
+.form form input{
+  border:none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.submit{
+  background-color: #f61;
+  margin-top: 15px;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.p{
+  font-size: 12px;
 }
