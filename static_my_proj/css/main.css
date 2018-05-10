@@ -536,7 +536,6 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   padding-bottom: 80px;
 }
 .promocionesColor h1{
-
   font-size: 45px;
   line-height: 35px;
   margin-bottom: 50px;
@@ -545,21 +544,21 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 }
 
 
-.infoPromociones h2{
+.InfoPromociones h2{
     color: #666;
     font-size: 25px;
     line-height: 35px;
     font-style: normal;
     text-align: center;
 }
-.infoPromociones p{
+.InfoPromociones p{
     color: #666;
     font-size: 16px;
     line-height: 35px;
     font-style: normal;
     text-align: center;
 }
-.infoPromociones {
+.InfoPromociones button{
     margin-left: 30%;
     background-color: #bfd000;
     color: #fff;
@@ -569,7 +568,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
     cursor: pointer;
 }
 
-.infoPromociones button:hover{
+.InfoPromociones button:hover{
   background-color:  #a4b300;
 }
 .promocionesColor{
