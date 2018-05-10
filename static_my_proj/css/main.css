@@ -559,7 +559,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
     font-style: normal;
     text-align: center;
 }
-.infoPromociones button{
+.infoPromociones {
     margin-left: 30%;
     background-color: #bfd000;
     color: #fff;
@@ -667,5 +667,130 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
     }
     .promocionesForm button{
       margin-right: 5%;
+    }
+}
+
+/* empresas */
+
+
+.sectionEmpresa{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/check-up-empresarial-bgtop.jpg);
+  padding-top: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  width: 100%;
+}
+.infoEmpresa{
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+.infoEmpresa h1{
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+.infoEmpresa h2{
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+.infoEmpresa h3{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+.infoEmpresa h4{
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+.infoEmpresa P{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.formEmpresa input{
+  margin-left: 5%;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  font-size: 12px;
+  color: #818181;
+  border: 1px solid #818181;
+}
+.formEmpresa select{
+  margin-left: 5%;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  font-size: 12px;
+  color: #818181;
+  border: 1px solid #818181;
+}
+.formEmpresa textarea{
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  font-size: 12px;
+  color: #818181;
+  border: 1px solid #818181;
+  max-height: 200px;
+}
+.botomEmpresa{
+  color: #fff;
+  font-family: 'Open Sans Condensed',sans-serif;
+  background-color: #bfd000;
+  border-right: 2px;
+  margin-left: 45%;
+  margin-top: 25px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.botomEmpresa:hover{
+  background-color: #a4b300;
+}
+
+.formEmpresa p{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.formEmpresa p span:hover{
+  color: #bfd000;
+  cursor: pointer;
+}
+.buttonResponsive{
+  display: none;
+}
+.buttonResponsive{
+  color: #bfd000;
+  font-family: 'Open Sans Condensed',sans-serif;
+  background-color: #fff;
+  border-right: 2px;
+  margin-left: 35%;
+  margin-top: 25px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.buttonResponsive:hover{
+  background-color:#bfd000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .formResponsive{
+      display: none;
+    }
+    .buttonResponsive{
+      display: block;
     }
 }

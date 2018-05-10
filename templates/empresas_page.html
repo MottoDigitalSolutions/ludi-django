@@ -2,9 +2,41 @@
 {% load static %}
 
 {% block content %}
-<div class="row">
-  <div class="col">
-    <h1>Empresas</h1>
+<div class="container-fluid items sectionEmpresa">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 infoEmpresa">
+        <h1>Conoce Cómo Funciona Nuestro </h1>
+        <h2>CHECK UP EMPRESARIAL</h2>
+        <h3>Tu check up y la de tus colaboradores <br>son lo más importante para LUDI </h3>
+        <h4>Contáctanos </h4>
+        <p>Te propondremos el mejor plan para <br>tus necesidades </p>
+      </div>
+      <div class="col-lg-6 col-md-12 formEmpresa">
+        <form class="formResponsive">
+          <div class="container">
+            <div class="row">
+              <input class="col-md-5 col-sm-12" type="text" name="Nombre" placeholder="Nombre" >
+              <input class="col-md-5 col-sm-12" type="text" name="Empresa" placeholder="Empresa" >
+              <input class="col-md-5 col-sm-12" type="text" name="Telefono" placeholder="Telefono" >
+              <input class="col-md-5 col-sm-12" type="text" name="Titulo" placeholder="Titulo" >
+              <input class="col-md-5 col-sm-12" type="text" name="Correo" placeholder="Correo" >
+              <select class="col-md-5 col-sm-12" name="Empleados">
+                <option>No. de Empleados</option>
+                <option value="1-10">1-10</option>
+                <option value="11-50">11-50</option>
+                <option value="51-100">51-100</option>
+                <option value="100 mas">100 mas</option>
+              </select>
+              <textarea class="col-md-12" name="name" rows="8" cols="80" placeholder="Escribe aqui tus comentarios..."></textarea>
+              <button type="button" class="btn botomEmpresa" name="button">Enviar</button>
+              <p class="col-md-12">Al enviar mis datos acepto la <span>Política de Privacidad</span></p>
+            </div>
+          </div>
+        </form>
+        <button type="button" name="button" class="btn buttonResponsive">AGENDA TU LLAMADA</button>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}
