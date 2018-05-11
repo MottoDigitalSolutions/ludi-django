@@ -1,11 +1,45 @@
+{% load static %}
 
 /*
+1. Global
 
 1. Header
 
 2. Footer
 
 */
+
+
+/* GLOBAL STARTS */
+
+* {
+    font-family:'Open Sans',sans-serif;
+    letter-spacing:1px;
+
+}
+
+.side-space-15 {
+    padding: 0 15% 0 15%;
+}
+
+.section-title {
+    padding: 10% 0 5% 0;
+    text-align: center;
+    font-weight:bold;
+}
+
+p {
+    color:#111;
+    font-weight:100;
+
+}
+
+h5 {
+    color: #666;
+    font-weight:bold;
+    margin-bottom:7%;
+}
+
 
 
 /* HEADER STARTS */
@@ -356,6 +390,203 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .conoceFour:hover{
   opacity: 0.8;
 }
+<<<<<<< HEAD
+
+/* NOSOTROS */
+.nosotros-header-container {
+    background-image: url("../images/nosotros/header-background.jpg");
+    min-height:30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nosotros-header-title {
+    color:#FFF;
+    text-shadow:1px 1px 2px rgba(0,0,0,.4);
+    font-weight:bold;
+}
+
+.green-circle-icon {
+    color: #bfd000;
+    font-size: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #bfd000;
+    padding: 5%;
+}
+
+.green-circle-icon:hover {
+    color: #FFFFFF;
+    background-color: #bfd000;
+}
+
+.green-section {
+    background-color: #bfd000;
+    color:#ffffff!important;
+}
+
+.green-section p{
+    color:#fff;
+}
+
+.filosofias {
+    background: url("../images/nosotros/filosofias-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-
+    width:auto;
+    height:50vh;
+    min-width:30%
+
+}
+
+.filosofias h4 {
+
+    z-index:10;
+}
+
+
+.orange-overlay {
+    background-color:rgba(255,102,17,0.5);
+    min-height:100%;
+
+}
+
+.orange-overlay:hover {
+    background-color:rgba(255,102,17,0.9);
+    min-height:100%;
+    z-index:1000;
+
+}
+
+body {
+	background-color: #ecf0f1;
+	margin: 20px;
+	font-family: Arial, Tahoma;
+	font-size: 20px;
+	color: #666666;
+	text-align: center;
+}
+p { color: #ffffff;  }
+
+/*-=-=-=-=-=-=-=-=-=-*/
+/* Column Grids */
+/*-=-=-=-=-=-=-=-=-= */
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+
+/*-=-=-=-=-=-=-=-=-=-=- */
+/* Flip Panel */
+/*-=-=-=-=-=-=-=-=-=-=- */
+
+.wrapper{ width: 980px; margin: 0 auto;  background-color: #bdd3de; hoverflow: hidden;}
+
+.panel {
+	margin: 0 auto;
+	height: 130px;
+	position: relative;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+}
+
+.panel .front,
+.panel .back {
+	text-align: center;
+}
+
+.panel .front {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 900;
+	text-align: center;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	   -moz-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.panel .back {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	-webkit-transform: rotateY(-180deg);
+	   -moz-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+.panel.flip .front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+.panel.flip .back {
+	z-index: 1000;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+.box1{
+	background-color: #14bcc8;
+	width: 250px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.box2{
+	background-color: #ff7e70;
+	width: 250px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+
+
+||||||| merged common ancestors
+=======
 
 .back{
   background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/bg-testimonios-2.jpg);
@@ -914,6 +1145,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
     .botomEmpresaTwo{
       margin-left: 35%;
     }
+<<<<<<< HEAD
 }
 
 .EmpresaColor{
@@ -984,3 +1216,6 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .itemEmpresa:hover{
   opacity: 1;
 }
+=======
+}
+>>>>>>> bc6e4ba0f23d4491380b0bd593754c49e64d2f1c
