@@ -43,7 +43,9 @@ h5 {
 
 
 /* HEADER STARTS */
-
+html{
+  background-color: #ffffff;
+}
 body{
   margin: 0;
   padding: 0;
@@ -52,6 +54,12 @@ body{
   padding-left: 0;
   padding-right: 0;
 }
+.navColor{
+  background-color:#ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .area{
   float: right;
   margin-right: 5%;
@@ -66,7 +74,7 @@ body{
   width: 150px;
   height: 70px;
   margin-top: 10px;
-  margin-left: 6%;
+  margin-left: -70%;
 }
 .pri-info{
   margin-right: 8%;
@@ -75,9 +83,14 @@ body{
   color: #a7a7a7;
 }
 .sec-info{
-  color: #131313;
+  color: #666;
   margin-right: 15px;
   font-size: 14px;
+  text-align: left;
+}
+.sec-info p{
+  color: #666;
+
 }
 .agen{
   border-color: #a7a7a7;
@@ -124,6 +137,7 @@ ul li .nav-link{
   display: none;
 }
 .redes{
+  color: #a7a7a7;
   cursor: pointer;
 }
 .redes:hover{
@@ -200,12 +214,12 @@ background: #ffb3b3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(135deg, #ff6118 0%,#ff3553 50%,#ff0099 100% );  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.redes{
+.redesDos{
   color: #ffffff;
   font-size: 20px;
   cursor: pointer;
 }
-.redes:hover{
+.redesDos:hover{
   color: #bfd000;
 }
 
@@ -217,28 +231,191 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   height: 65vh;
   width: 100%;
 }
-.carousel-caption h5{
-  color:#bfd000;
-  font-weight: 700;
-  font-size: 54px;
+.btn-carousel:hover{
+  background-color: #ff6611;
+  color: #ffffff;
 }
-.carousel-caption p{
-  color:#bfd000;
-  font-weight: 700;
-  font-size: 24px;
+.primerSlide h5{
+    z-index: 5;
+    font-size: 98px;
+    margin-bottom: -10px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: -5px;
+    text-transform: uppercase;
 }
-.btn-carousel{
+.primerSlide p{
+    z-index: 5;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.primerSlide button{
   background-color: #ffffff;
   color: #ff6611;
   font-weight: 700;
   font-size: 18px;
   font-family: 'Open Sans ',sans-serif;
-}
-.btn-carousel:hover{
-  background-color: #ff6611;
-  color: #ffffff;
+  margin-bottom: 120px;
 }
 
+.segundoSlide h5{
+    z-index: 5;
+    font-size: 98px;
+    margin-bottom: -10px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+.segundoSlide p{
+    z-index: 5;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.segundoSlide button{
+  background-color: transparent;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Open Sans ',sans-serif;
+  margin-bottom: 180px;
+  margin-left: -85%;
+}
+.segundoSlide button:hover{
+  background-color: #ffffff;
+  color:#ff6611;
+}
+.tercerSlide h5{
+    z-index: 5;
+    font-size: 98px;
+    margin-bottom: -10px;
+    font-weight: 700;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+.tercerSlide p{
+    z-index: 5;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.tercerSlide button{
+  background-color: transparent;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Open Sans ',sans-serif;
+  margin-bottom: 180px;
+  margin-left: 85%;
+}
+.tercerSlide button:hover{
+  background-color: #ffffff;
+  color:#ff6611;
+}
+.cuartoSlide h5{
+    z-index: 5;
+    font-size: 98px;
+    margin-bottom: -10px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+.cuartoSlide p{
+    z-index: 5;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.cuartoSlide button{
+  background-color: transparent;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Open Sans ',sans-serif;
+  margin-bottom: 180px;
+}
+.cuartoSlide button:hover{
+  background-color: #ffffff;
+  color:#ff6611;
+}
+
+.quintoSlide h5{
+    z-index: 5;
+    font-size: 98px;
+    margin-bottom: -10px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+.quintoSlide p{
+    z-index: 5;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.quintoSlide button{
+  background-color: #ff6611;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Open Sans ',sans-serif;
+  margin-bottom: 180px;
+  margin-left: -85%;
+}
+.quintoSlide button:hover{
+  background-color: #ffffff;
+  color:#ff6611;
+}
+
+.sextoSlide h5{
+    z-index: 5;
+    font-size: 98px;
+    margin-bottom: -10px;
+    font-weight: 700;
+    text-align: right;
+    color: rgb(51, 51, 51);
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+.sextoSlide p{
+    z-index: 5;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+.sextoSlide button{
+  background-color: #bfd000;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Open Sans ',sans-serif;
+  margin-bottom: 180px;
+  margin-left: 85%;
+}
+.sextoSlide button:hover{
+  background-color: #a4b300;
+}
 .sectionTwo{
   background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/home-prevencion-2.jpg);
   padding-top: 60px;
@@ -265,25 +442,31 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   width: 40%;
 }
 .sectionTwo div h3{
-  text-align: center;
-  color: #666;
+    color: #666;
+    font-size: 25px;
+    line-height: 35px;
+    font-style: normal;
+    text-align: center;
 }
 .sectionTwo div ul{
   margin-top: 40px;
 }
 .sectionTwo div ul li{
   color: #262626;
+  font-size: 16px;
   margin-top: 20px;
   font-weight: 400;
+  text-align: left;
 }
 .conocemas{
-  margin-left: 30%;
+  margin-left: 20%;
   background-color: #bfd000;
   color: #fff;
   font-weight: 700;
-  padding: 10px;
+  padding: 20px 10px;
   font-family: 'Open Sans ',sans-serif;
-  width:35%;
+  width:25%;
+  font-size: 14px;
 }
 .conocemas:hover{
   background-color:  #a4b300;
@@ -298,10 +481,13 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .down h4{
   color:#666;
   font-weight: 700;
+  text-align: left;
+  margin-left: -10px;
 }
 .down p{
   color:#666;
   font-size: 18px;
+  text-align: left;
 }
 
 .color{
@@ -325,6 +511,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   max-width: 1700px;
   padding-top: 20px;
   padding-bottom: 50px;
+
 }
 .img-size{
   width: 100%;
@@ -333,6 +520,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .icon-size{
   width: 60px;
   height: 70px;
+  margin-left: -80%;
 }
 .detalle{
   background-color: #bfd000;
@@ -340,6 +528,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   font-weight: 700;
   padding: 5px 15px;
   font-family: 'Open Sans ',sans-serif;
+  margin-left: -50%;
 }
 .detalle:hover{
   background-color:  #a4b300;
@@ -370,13 +559,14 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   text-align: left;
   font-weight: 600;
   color: #fff;
-  line-height: 35px;
+  font-size: 24px;
+  line-height: 30px;
   font-style: normal;
 }
 .info p{
-  text-align: left;
-  font-weight: 600;
+  text-align: justify;
   color: #fff;
+  font-size: 16px;
 }
 .conoceFour{
   background-color: #fff;
@@ -583,12 +773,7 @@ p { color: #ffffff;  }
 }
 
 
-
-
-||||||| merged common ancestors
-=======
-
-.back{
+.backkk{
   background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/bg-testimonios-2.jpg);
   padding-top: 180px;
   background-position: center center;
@@ -656,6 +841,7 @@ p { color: #ffffff;  }
   background-color: #ffffff;
   margin-left: 5px;
   padding-bottom: 20px;
+  margin-top: 20px;
 }
 .contenedor h3{
   margin-top: 10px;
@@ -674,15 +860,15 @@ p { color: #ffffff;  }
 .contenedor p{
   margin-top: 10px;
   margin-left: 10px;
-  font-family: 'Open Sans Condensed',sans-serif;
   color: #666;
   font-size: 18px;
+  text-align: left;
 }
 .logo{
   width: 40px;
   height: 30px;
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: -10px;
 }
 .fecha{
   font-size: 10px;
@@ -695,7 +881,6 @@ p { color: #ffffff;  }
   margin-left: 10px;
 }
 .blog{
-  margin-left: 45%;
   background-color: #bfd000;
   color: #fff;
   font-weight: 600;
@@ -781,22 +966,24 @@ p { color: #ffffff;  }
     color: #666;
     font-size: 25px;
     line-height: 35px;
+    font-weight: 700;
     font-style: normal;
     text-align: center;
 }
 .InfoPromociones p{
     color: #666;
-    font-size: 16px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 20px;
     font-style: normal;
     text-align: center;
 }
 .InfoPromociones button{
     background-color: #bfd000;
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
     padding: 20px;
     border: none;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -816,9 +1003,8 @@ p { color: #ffffff;  }
 .promocionesForm p{
   margin-top: 20px;
   text-align:center;
-  font-family: 'Open Sans Condensed',sans-serif;
-  font-weight:600;
   padding-bottom:10px;
+  font-size: 14px;
   color: #666;
 }
 .promocionesForm input{
@@ -916,7 +1102,7 @@ p { color: #ffffff;  }
 }
 .infoEmpresa{
   margin-bottom: 30px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 .infoEmpresa h1{
   font-size: 24px;
@@ -945,7 +1131,7 @@ p { color: #ffffff;  }
 }
 
 .formEmpresa input{
-  margin-left: 5%;
+  margin-left: 6%;
   margin-top: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -955,7 +1141,7 @@ p { color: #ffffff;  }
   border: 1px solid #818181;
 }
 .formEmpresa select{
-  margin-left: 5%;
+  margin-left: 6%;
   margin-top: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -970,6 +1156,8 @@ p { color: #ffffff;  }
   padding-bottom: 15px;
   padding-left: 20px;
   font-size: 12px;
+  margin-left: 5%;
+
   color: #818181;
   border: 1px solid #818181;
   max-height: 200px;
