@@ -10,7 +10,6 @@ $(document).ready(function(){
 		},function(){
 			$(this).removeClass('flip');
 		});
-	});
 
 
     const Slider = document.querySelector('.items');

@@ -765,6 +765,8 @@ p { color: #ffffff;  }
 .promocionesColor{
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: #fff;
+  margin-top: -30px;
 }
 .promocionesColor h1{
   font-size: 45px;
@@ -790,7 +792,6 @@ p { color: #ffffff;  }
     text-align: center;
 }
 .InfoPromociones button{
-    margin-left: 30%;
     background-color: #bfd000;
     color: #fff;
     font-weight: 600;
@@ -1006,7 +1007,7 @@ p { color: #ffffff;  }
   font-family: 'Open Sans Condensed',sans-serif;
   background-color: #fff;
   border-right: 2px;
-  margin-left: 35%;
+  margin-left: 33%;
   margin-top: 25px;
   padding: 10px 20px;
   font-weight: 700;
@@ -1028,7 +1029,7 @@ p { color: #ffffff;  }
 .colorEmpresa{
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 .colorEmpresa h1{
     color: #333;
@@ -1059,7 +1060,6 @@ p { color: #ffffff;  }
 .EmpresaInfo img{
   width: 35%;
   height: 35%;
-  margin-left: 32%;
 }
 .EmpresaInfo h4{
   color: #333;
@@ -1128,7 +1128,6 @@ p { color: #ffffff;  }
   font-family: 'Open Sans Condensed',sans-serif;
   background-color: #bfd000;
   border-right: 2px;
-  margin-left: 40%;
   margin-top: 25px;
   padding: 10px 20px;
   font-weight: 700;
