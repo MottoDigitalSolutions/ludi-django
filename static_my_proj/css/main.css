@@ -619,6 +619,7 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
   border: none;
   color: #fff;
   cursor: pointer;
+  outline: none;
 }
 .boton:hover{
   background-color: #f61;
@@ -913,4 +914,73 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
     .botomEmpresaTwo{
       margin-left: 35%;
     }
+}
+
+.EmpresaColor{
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #bfd000);
+  background: linear-gradient(to right, #38ef7d, #bfd000);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.EmpresaColor h1{
+  color: #fff;
+  font-size: 40px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.contenedorPadding{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contenedorEmpresa{
+  background-color: #fff;
+  padding: 20px 10px;
+}
+.contenedorEmpresa h3{
+  color: #666;
+  font-size: 25px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+}
+.contenedorEmpresa h4{
+  color: #666;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+}
+.contenedorEmpresa p{
+  color: #666;
+  font-size: 12px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.itemEmpresa{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.itemEmpresa:hover{
+  opacity: 1;
 }
