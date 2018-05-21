@@ -53,23 +53,23 @@
                 <a style="color:#fff;" class="nav-link" href="{{ promociones_url }}">Promociones</a>
             </li>
 
-            <!--<li class="nav-item dropdown">-->
-                <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"-->
-                   <!--aria-haspopup="true" aria-expanded="false">-->
-                    <!--{{check}}-->
-                <!--</a>-->
-                <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-                    <!--<a class="dropdown-item" [routerLink]="['/prevencion']">{{preven}}</a>-->
-                    <!--<a class="dropdown-item" href="#">{{que}}</a>-->
-                    <!--<a class="dropdown-item" href="#">{{empresarial}}</a>-->
-                    <!--<a class="dropdown-item" href="#">{{integral}}</a>-->
-                    <!--<a class="dropdown-item" href="#">{{plus}}</a>-->
-                    <!--<a class="dropdown-item" href="#">{{gene}}</a>-->
-                    <!--<a class="dropdown-item" href="#">{{espe}}</a>-->
-                <!--</div>-->
-            <!--</li>-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color:white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Check ups
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ prevencion_url }}">Prevencion</a>
+                    <a class="dropdown-item" href="#">¿Que es un check up?</a>
+                    <a class="dropdown-item" href="#">Check up empresarial</a>
+                    <a class="dropdown-item" href="#">Check up integral</a>
+                    <a class="dropdown-item" href="#">Check up plus</a>
+                    <a class="dropdown-item" href="#">Check up genetest</a>
+                    <a class="dropdown-item" href="#">Check up especialidad</a>
+                </div>
+            </li>
 
-            <li class="nav-item {% if request.path == empresas_url %} active {% endif %}">
+             <li class="nav-item {% if request.path == empresas_url %} active {% endif %}">
                 <a style="color:#fff;" class="nav-link" href="{{ empresas_url }}">Empresas </a>
             </li>
 
