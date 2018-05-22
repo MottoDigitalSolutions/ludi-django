@@ -44,3 +44,12 @@ def contacto_page(request):
     }
 
     return render(request, "contacto_page.html", context)
+
+def prevencion_page(request):
+
+    context = {
+        "title": "Ludi | Prevencion",
+        "content": "Welcome to hompage",
+    }
+
+    return render(request, "prevencion_page.html", context)

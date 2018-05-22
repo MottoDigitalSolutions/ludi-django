@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 
-from .views import home_page, promociones_page, empresas_page, nosotros_page, contacto_page
+from .views import home_page, promociones_page, empresas_page, nosotros_page, contacto_page, prevencion_page
 
 
 urlpatterns = [
@@ -29,6 +29,7 @@ urlpatterns = [
     url(r'^empresas/$', empresas_page, name='empresas'),
     url(r'^nosotros/$', nosotros_page, name='nosotros'),
     url(r'^contacto/$', contacto_page, name='contacto'),
+    url(r'^prevencion/$', prevencion_page, name='prevencion')
 ]
 
 if settings.DEBUG:
