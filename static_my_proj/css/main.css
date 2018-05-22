@@ -1513,13 +1513,17 @@ p { color: #ffffff;  }
 }
 
 .pBoletines{
-  font-size: 12px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
 }
 
 .h1Boletines{
   text-align: center;
   font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  text-transform: uppercase;
 }
 
 .dropdown-item:hover{
@@ -1563,6 +1567,7 @@ p { color: #ffffff;  }
 .imgPrevencion{
   width: 100%;
 }
+
 .fondoPrevencion{
   background-color: #bfd000;
   padding-top: 50px;
@@ -1585,6 +1590,7 @@ p { color: #ffffff;  }
   text-align:center;
   font-family: 'Open Sans Condensed',sans-serif;
   font-weight:600;
+  font-size: 50px;
   padding-bottom:30px;
   color: #fff;
 }
@@ -1602,6 +1608,14 @@ p { color: #ffffff;  }
   color: #ff6611;
   font-family: 'Open Sans Condensed',sans-serif;
   font-weight:600;
+}
+.canal:hover{
+  opacity: .8;
+}
+.canal i{
+  color: #ff6611;
+  font-size: 22px;
+  margin-top: 5px;
 }
 
 .colorPrevencion{
@@ -1677,10 +1691,14 @@ p { color: #ffffff;  }
   margin-left: 45%;
   background-color: #bfd000;
   color: #fff;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight:600;
+  padding-bottom:10px;
   font-weight: 600;
   padding: 20px 30px;
   margin-top: 10px;
   border: none;
+  cursor: pointer;
   border-radius: 2px;
   margin-top: 20px;
 }
@@ -1708,6 +1726,125 @@ p { color: #ffffff;  }
     }
 }
 
+/* Que es */
+
+.fondoQueEs{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/titulo-que-es-un-check-up-1.jpg);
+  background-color: #bfd000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fondoQueEs h1{
+  text-align:center;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight:600;
+  font-size: 50px;
+  padding-bottom:30px;
+  color: #fff;
+}
+.fondoTwoQueEs{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/que-es-un-check-up-diagnostico-preventivo.jpg);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fondoTwoQueEs h1{
+  color: #333333;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+.contenedorQueEs{
+  margin-top: 20px;
+}
+.contenedorQueEs h2{
+  font-family: 'Open Sans',sans-serif;
+  color: #666;
+  margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+.contenedorQueEs p{
+  color: #111;
+  font-size: 16px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.QueEsColor{
+  background: #11998e;
+  background: linear-gradient(130deg, rgba(16,170,150,1) 0%, rgba(191,208,0,1) 100%);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.QueEsColor h1{
+  color: #fff;
+  font-size: 40px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.PreguntasQueEs{
+  padding-bottom: 10px;
+}
+.PreguntasQueEs h2{
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+}
+.PreguntasQueEs p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+}
+.QueEsColorTwo{
+  background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.QueEsColorTwo h2{
+  color: #fff;
+  font-size: 26px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+}
+.QueEsColorTwo button{
+  background-color:#fff;
+  font-family: 'Open Sans',sans-serif;
+  color: #bfd000;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+}
+.QueEsColorTwo button:hover{
+  background-color: #bfd000;
+  color:#fff;
+}
 
 
 

@@ -2,6 +2,128 @@
 {% load static %}
 
 {% block content %}
-<h1>que es</h1>
+<div class="container-fluid fondoQueEs"><h1>¿QUÉ ES UN CHECK UP?</h1></div>
+<div class="container-fluid fondoTwoQueEs">
+  <h1>DIAGNÓSTICO PREVENTIVO</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 contenedorQueEs">
+        <h2>¡LA SALUD ES LO MÁS IMPORTANTE!</h2>
+        <p>Un Check Up consiste en realizar una serie de exámenes clínicos médicos, practicados por médicos especialistas, apoyados y complementados por diferentes estudios de laboratorio y gabinete que permitan conocer el estado de salud de un individuo en forma integral. <br>
+          <br>LUDI se dedica a realizar Check Ups con la finalidad de cuidar la salud y prevenir el desarrollo de enfermedades. Un Check Up es la mejor forma de lograrlo, ya que identifica de manera temprana datos que orientan o indican la posibilidad de que se puedan presentar enfermedades en el futuro. Si ya están presentes, el Check Up sirve para detectarlas en su fase temprana y sugerir el tratamiento adecuado.
+        </p>
+        <button type="button" class="btn agendar" name="button">AGENDAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid QueEsColor">
+  <h1>PREGUNTAS FRECUENTES</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Qué muestras y qué cantidad se requieren para llevar a cabo el chequeo médico preventivo?</h2>
+        <p>Solo se requiere una muestra de sangre para realizar todas estas pruebas. Solo se requieren muestras de 5 ml que se toman de su brazo derecho.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Qué hora es la ideal para hacerme mi Check Up?</h2>
+        <p>Según su conveniencia de tiempo. Por lo general, en el tiempo de la mañana, desde las 10 a las 12 horas, se requiere ayuno.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Sus informes de laboratorio son aceptados por los doctores?</h2>
+        <p>Los resultados los entregan los médicos internistas según su especialidad.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Se lleva a cabo una prueba de estrés y de rayos X también?</h2>
+        <p>Si. En LUDI contamos con los equipos más avanzados para asegurar la confiabilidad en las mediciones de las valoraciones medicas de especialidad y los estudios de Laboratorio, Rayos X, Ultrasonografía y Gabinete que apoyan el diagnóstico final.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Cómo hacemos el pago y ustedes dan factura?</h2>
+        <p>LUDI acepta diferentes formas de pago para el beneficio de nuestros pacientes. También Facturamos.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Necesitamos llegar a su sucursal?</h2>
+        <p>Si. En nuestra sucursal contamos con el equipo tecnológico y el personal capacitado para asegurarnos de cubrir las necesidades de nuestros pacientes.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Recibimos un descuento adicional si hay más miembros en la familia?</h2>
+        <p>Te puedes beneficiar del Círculo; Tus invitados obtendrán un 15% de descuento en el Check Up que elijan. Tu Check Up será gratis si te realizas el mismo de la última vez.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Cómo y cuándo recibimos Informes?</h2>
+        <p>Los informes le serán enviados por correo electrónico dentro de las 48 horas y también recibirá una copia impresa por mensajería dentro de 3 a 4 días.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Cuentan con médicos con quienes podemos consultar los resultados?</h2>
+        <p>Te puedes beneficiar del Círculo; Tus invitados obtendrán un 15% de descuento en el Check Up que elijan. Tu Check Up será gratis si te realizas el mismo de la última vez.</p>
+      </div>
+      <div class="col-md-6 PreguntasQueEs">
+        <h2>¿Cómo y cuándo recibimos Informes?</h2>
+        <p>No, nuestros informes tendrán un rango de referencia para cada resultado de la Prueba. Habrá una columna de rango normal y valor real. Entonces, como lego, sabrá si sus valores están dentro del rango. Si todos los valores están dentro del rango, el informe es normal y no es necesario mostrarlo al médico. Si hay valores anormales, entonces puede consultar con su médico de familia/local.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid QueEsColorTwo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <h2>¿TIENES MÁS PREGUNTAS? RESOLVEREMOS TUS DUDAS.</h2>
+      </div>
+      <div class="col-md-2">
+        <button type="button" name="button">CONTÁCTANOS</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid colorTwoPrevencion">
+  <div class="container">
+    <div class="row">
+      <h1 class="col-md-12" style="text-align:center;">¡AGENDA TU CITA!</h1>
+      <h2 class="col-md-12">Llevamos el kit para tu check up hasta tu casa</h2>
+      <form class="row formPrevencion">
+        <p class="col-md-12">Datos Personales</p>
+        <input class="col-md-5" type="text" name="nombre" placeholder="Nombre" ngModel>
+        <input class="col-md-5" type="text" name="empresa" placeholder="Empresa" ngModel>
+        <input class="col-md-5" type="mail" name="correo" placeholder="Correo" ngModel>
+        <input class="col-md-5" type="num" name="telefono" placeholder="Teléfono" ngModel>
+        <input class="col-md-5" type="number" name="edad" placeholder="Edad" ngModel>
+        <select class="col-md-5" name="genero" placeholder="Genero" ngModel>
+          <option value="hombre">Hombre</option>
+          <option value="mujer">Mujer</option>
+        </select>
+        <p class="col-md-12">¿En qué podemos ayudarte?</p>
+        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="IntegralFunc()" [ngStyle]="{'background-color': IntegralColor}" >Check Up Integral</button>
+        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="PlusFunc()" [ngStyle]="{'background-color': PlusColor}" >Check Up Plus</button>
+        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="EspecialidadFunc()" [ngStyle]="{'background-color': EspecialidadColor}" >Check Up Especialidad</button>
+        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="GenetestFunc()" [ngStyle]="{'background-color': GenetestColor}" >Check Up Genetest</button>
+        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="EmpresarialFunc()" [ngStyle]="{'background-color': EmpresarialColor}" >Check Up Empresarial</button>
+
+        <textarea class="col-md-12" name="comentario" placeholder="Escribe aqui tus comentarios..." ngModel></textarea>
+        <button type="submit" class="enviar">ENVIAR</button>
+        <p class="col-md-12" style="font-size:16px;line-height:22px;font-weight:600;">Al enviar mis datos acepto la <a href="#" class="politica">Politica de Privacidad.</a> </p>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="container-fluid backBoletines">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <img class="imgBoletines" src="http://ludi.com.mx/wp-content/uploads/2017/11/boletines-01.png" alt="">
+      </div>
+      <div class="col-md-8 col-sm-6 form">
+        <h1 class="h1Boletines">SUSCRIPCIÓN A BOLETINES</h1>
+        <p class="pBoletines">Inscríbete a nuestro newsletter y obtén 10% de descuento en tu primer Check Up anual.</p>
+        <form class="formBoletines" action="" method="post">
+          <input class="inputBoletines" type="email" name="email" value="" placeholder="Ingresa tu correo*">
+          <input class="submitBoletines" type="submit" name="enviar" value="Enviar">
+        </form>
+        <br>
+        <p class="pBoletines">El envío del formulario supone la aceptación del aviso legal</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% endblock %}
