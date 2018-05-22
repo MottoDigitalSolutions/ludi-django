@@ -7,6 +7,14 @@
 {% url 'nosotros' as nosotros_url %}
 {% url 'contacto' as contacto_url %}
 
+{% url 'prevencion' as prevencion_url %}
+{% url 'que_es' as que_es_url %}
+{% url 'empresarial' as empresarial_url %}
+{% url 'integral' as integral_url %}
+{% url 'plus' as plus_url %}
+{% url 'genetest' as genetest_url %}
+{% url 'especialidad' as especialidad_url %}
+
     <!-- NAV BAR -->
     <div class="row respo">
 
@@ -60,12 +68,12 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="{{ prevencion_url }}">Prevencion</a>
-                    <a class="dropdown-item" href="#">¿Que es un check up?</a>
-                    <a class="dropdown-item" href="#">Check up empresarial</a>
-                    <a class="dropdown-item" href="#">Check up integral</a>
-                    <a class="dropdown-item" href="#">Check up plus</a>
-                    <a class="dropdown-item" href="#">Check up genetest</a>
-                    <a class="dropdown-item" href="#">Check up especialidad</a>
+                    <a class="dropdown-item" href="{{ que_es_url }}">¿Que es un check up?</a>
+                    <a class="dropdown-item" href="{{ empresarial_url }}">Check up empresarial</a>
+                    <a class="dropdown-item" href="{{ integral_url }}">Check up integral</a>
+                    <a class="dropdown-item" href="{{ plus_url }}">Check up plus</a>
+                    <a class="dropdown-item" href="{{ genetest_url }}">Check up genetest</a>
+                    <a class="dropdown-item" href="{{ especialidad_url }}">Check up especialidad</a>
                 </div>
             </li>
 
