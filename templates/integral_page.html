@@ -2,6 +2,55 @@
 {% load static %}
 
 {% block content %}
-<h1>integral</h1>
+<div class="container-fluid sectionIntegral">
+  <div class="opacityDiv"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 infoIntegral">
+        <h1>Check Up Integral </h1>
+        <h2>Déjanos colaborar con la tranquilidad de tu futuro y la de tu familia. <br>Contáctanos para que te orientemos en el tipo de check up
+          que requieres de cuerdo a tus características de edad y sexo. </h2>
+      </div>
+      <div class="col-lg-6 col-md-12 formEmpresa">
+        <form class="formResponsive">
+          <div class="container">
+            <div class="row">
+              <input class="col-md-5 col-sm-12" type="text" name="Nombre" placeholder="Nombre" >
+              <input class="col-md-5 col-sm-12" type="text" name="Empresa" placeholder="Empresa" >
+              <input class="col-md-5 col-sm-12" type="text" name="Telefono" placeholder="Telefono" >
+              <input class="col-md-5 col-sm-12" type="text" name="Titulo" placeholder="Titulo" >
+              <input class="col-md-5 col-sm-12" type="text" name="Correo" placeholder="Correo" >
+              <select class="col-md-5 col-sm-12" name="Empleados">
+                <option>No. de Empleados</option>
+                <option value="1-10">1-10</option>
+                <option value="11-50">11-50</option>
+                <option value="51-100">51-100</option>
+                <option value="100 mas">100 mas</option>
+              </select>
+              <textarea class="col-md-11" name="name" rows="8" cols="80" placeholder="Escribe aqui tus comentarios..."></textarea>
+              <button type="button" class="btn botomEmpresa" name="button">Enviar</button>
+              <p class="col-md-12" style="color:#111;">Al enviar mis datos acepto la <span style="color:#f61;">Política de Privacidad</span></p>
+            </div>
+          </div>
+        </form>
+        <button type="button" name="button" class="btn buttonResponsive">AGENDA TU LLAMADA</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid sectionTwoIntegral">
+  <h1>CHECK UP INTEGRAL A TU MEDIDA</h1>
+  <div class="container">
+    <div class="row">
+      <button class="col-md-2 botonIntegral" >MAYORES DE 50</button>
+      <button class="col-md-2 botonIntegral" >MAYORES 40</button>
+      <button class="col-md-2 botonIntegral" >MAYORES 30</button>
+      <button class="col-md-2 botonIntegral" >BÁSICA 1</button>
+      <button class="col-md-2 botonIntegral" >BÁSICA 2</button>
+    </div>
+  </div>
+  
+</div>
 
 {% endblock %}

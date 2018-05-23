@@ -45,6 +45,7 @@ h5 {
 /* HEADER STARTS */
 html{
   background-color: #ffffff;
+
 }
 body{
   margin: 0;
@@ -53,6 +54,9 @@ body{
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
+}
+nav{
+  z-index: 1000;
 }
 .navColor{
   background-color:#ffffff;
@@ -1846,6 +1850,69 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
   color:#fff;
 }
 
+/* integral */
+
+.sectionIntegral{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/check-up-integral-bgtop.jpg);
+  padding-top: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  overflow: hidden;
+  width: 100%;
+}
+.opacityDiv{
+  opacity: .5;
+  border-right: 100px solid transparent;
+  border-top: 75vh solid #45B649;
+  position: absolute;
+  width: 60%;
+  top: 21%;
+
+}
+.infoIntegral{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.infoIntegral h1{
+  font-size: 36px;
+  color: #fff;
+  text-align: left;
+  opacity: 1 !important;
+  text-transform: uppercase;
+}
+.infoIntegral h2{
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  opacity: 1 !important;
+}
+.sectionTwoIntegral{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1000;
+}
+.sectionTwoIntegral h1{
+  font-weight: 600;
+}
+.botonIntegral{
+  margin-top: 5%;
+  margin-left: 20px;
+  padding: 10px;
+  border: none;
+  background: #ccc;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.botonIntegral:hover{
+  background-color: #bfd000;
+}
 
 
 
