@@ -63,4 +63,73 @@ $(document).ready(function(){
 
    });
 
+    $('.cincuenta').on('click',function(){
+      $('#primeroBoton').css('background-color','#bfd000');
+      $('#segundoBoton').css('background-color','#ccc');
+      $('#terceroBoton').css('background-color','#ccc');
+      $('#cuartoBoton').css('background-color','#ccc');
+      $('#quintoBoton').css('background-color','#ccc');
+
+      $('#menores40').hide();
+      $('#menores30').hide();
+      $('#basico1').hide();
+      $('#basico2').hide();
+      $('#mayores40').show();
+    });
+    $('.cuarenta').on('click',function(){
+      $('#primeroBoton').css('background-color','#ccc');
+      $('#segundoBoton').css('background-color','#bfd000');
+      $('#terceroBoton').css('background-color','#ccc');
+      $('#cuartoBoton').css('background-color','#ccc');
+      $('#quintoBoton').css('background-color','#ccc');
+
+      $('#menores30').hide();
+      $('#basico1').hide();
+      $('#basico2').hide();
+      $('#mayores40').hide();
+      $('#menores40').show();
+    });
+
+    $('.treinte').on('click',function(){
+      $('#primeroBoton').css('background-color','#ccc');
+      $('#segundoBoton').css('background-color','#ccc');
+      $('#terceroBoton').css('background-color','#bfd000');
+      $('#cuartoBoton').css('background-color','#ccc');
+      $('#quintoBoton').css('background-color','#ccc');
+
+      $('#basico1').hide();
+      $('#basico2').hide();
+      $('#mayores40').hide();
+      $('#menores40').hide();
+      $('#menores30').show();
+    });
+    $('.basicoUno').on('click',function(){
+      $('#primeroBoton').css('background-color','#ccc');
+      $('#segundoBoton').css('background-color','#ccc');
+      $('#terceroBoton').css('background-color','#ccc');
+      $('#cuartoBoton').css('background-color','#bfd000');
+      $('#quintoBoton').css('background-color','#ccc');
+
+      $('#basico2').hide();
+      $('#mayores40').hide();
+      $('#menores40').hide();
+      $('#menores30').hide();
+      $('#basico1').show();
+    });
+    $('.basicoDos').on('click',function(){
+      $('#primeroBoton').css('background-color','#ccc');
+      $('#segundoBoton').css('background-color','#ccc');
+      $('#terceroBoton').css('background-color','#ccc');
+      $('#cuartoBoton').css('background-color','#ccc');
+      $('#quintoBoton').css('background-color','#bfd000');
+
+      $('#mayores40').hide();
+      $('#menores40').hide();
+      $('#menores30').hide();
+      $('#basico1').hide();
+      $('#basico2').show();
+    });
+
+
+
 });

@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block content %}
+<div class="items"></div>
 <div class="container-fluid sectionIntegral">
   <div class="opacityDiv"></div>
   <div class="container">
@@ -43,14 +44,305 @@
   <h1>CHECK UP INTEGRAL A TU MEDIDA</h1>
   <div class="container">
     <div class="row">
-      <button class="col-md-2 botonIntegral" >MAYORES DE 50</button>
-      <button class="col-md-2 botonIntegral" >MAYORES 40</button>
-      <button class="col-md-2 botonIntegral" >MAYORES 30</button>
-      <button class="col-md-2 botonIntegral" >BÁSICA 1</button>
-      <button class="col-md-2 botonIntegral" >BÁSICA 2</button>
+      <button class="col-md-2 botonIntegral activeBotones cincuenta" id="primeroBoton">MAYORES DE 50</button>
+      <button class="col-md-2 botonIntegral cuarenta" id="segundoBoton">MENORES 40</button>
+      <button class="col-md-2 botonIntegral treinte" id="terceroBoton">MENORES 30</button>
+      <button class="col-md-2 botonIntegral basicoUno" id="cuartoBoton">BÁSICA 1</button>
+      <button class="col-md-2 botonIntegral basicoDos" id="quintoBoton">BÁSICA 2</button>
     </div>
   </div>
-  
+  <div class="container contenedorCheckUpsTipos primero" id="mayores40" >
+    <h2>Check Up Integral Para Mayores de 40 Años</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Estudios Clínicos</h3>
+        <ul class="unica">
+          <li class="modalContenido" >Historia Clínica Completa por Médico Internista</li>
+          <li>Valoración Odontológica con Ortopantografía</li>
+          <li>Valoración Nutricional</li>
+          <li>Valoración de Calidad de Vida</li>
+          <li>Valoración de Estrés Laboral (Biofeedback)</li>
+          <li>Valoración Proctológica con Rectosigmoidoscopia</li>
+          <li>Valoración Ginecológica con Colposcopia – Mujeres</li>
+          <li class="modalContenido">Valoración Oftalmológica</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-clinicos-03.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-laboratorio-03.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios de Laboratorio</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ac. Anti HIV 1+2</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Biometría Hemática con Plaquetas y Velocidad de Sedimentación Globular</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil 24 Elementos</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil Tiroideo</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Lípidos Totales</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Homocisteina</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Proteína C Reactiva Ultrasensible</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;VDRL</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Examen General de Orina</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Coproparasitoscópico (1)</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ag. Específico Prostático Total y Libre <strong style="color:#41f;"> – Hombres</strong></li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Citología Cervico-Vaginal <strong style="color:#f19;"> – Mujeres</strong></li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Cultivo de Exudado Vaginal <strong style="color:#f19;"> – Mujeres</strong></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios de Gabinete</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Audiometría Tonal Aérea</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Telerradiografía de Tórax</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Abdominal Superior</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Abdominal Inferior</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Densitometría Ósea 2 Regiones</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Mamario <strong style="color:#f19;"> – Mujeres</strong></li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Mastografía <strong style="color:#f19;"> – Mujeres</strong></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-clinicos-06.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-clinicos-04.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios Cardio-Pulmonares</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Espirometría</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Electrocardiograma de Reposo</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Electrocardiograma de Esfuerzo (banda sin fin)</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Oximetria</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container contenedorCheckUpsTipos segundo" id="menores40" >
+    <h2>Check Up Integral Para Menores de 40 Años</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-clinicos-05.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios Clínicos</h3>
+        <ul class="global">
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Historia Clínica Completa por Médico Internista</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Valoración Odontológica con Ortopantografía</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Valoración Nutricional</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Valoración de Estrés Laboral (Biofeedback)</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Valoración Oftalmológica</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios de Laboratorio</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ac. Anti HIV 1+2</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Biometría Hemática con Plaquetas y Velocidad de Sedimentación Globular</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil 24 Elementos</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil Tiroideo</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Lípidos Totales</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Homocisteina</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Proteína C Reactiva Ultrasensible</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;VDRL</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Examen General de Orina</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Coproparasitoscópico (1)</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Citología Cervico-Vaginal <strong style="color:#f19;"> – Mujeres</strong></li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Cultivo de Exudado Vaginal <strong style="color:#f19;"> – Mujeres</strong></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-laboratorio-04.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-gabinete-04.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios de Gabinete</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Telerradiografía de Tórax</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Abdominal Superior</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Abdominal Inferior</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Densitometría Ósea 2 Regiones</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Mamario <strong style="color:#f19;"> – Mujeres</strong></li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Colposcopia <strong style="color:#f19;"> – Mujeres</strong></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios Cardio-Pulmonares</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Espirometría</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Electrocardiograma de Reposo</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Electrocardiograma de Esfuerzo (banda sin fin)</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Oximetria</li>
+          </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-cardio-pulmonares-05.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container contenedorCheckUpsTipos tercero" id="menores30" >
+    <div class="row">
+      <h2>Check Up Integral Para Menores de 30 Años</h2>
+        <div class="col-md-6">
+          <h3>Estudios Clínicos</h3>
+          <ul class="global">
+            <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Historia Clínica Completa por Médico Internista</li>
+            <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Valoración Oftalmológica</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-clinicos-02.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-laboratorio-05.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>Estudios de Laboratorio</h3>
+          <ul class="global">
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Biometría Hemática con Plaquetas y Velocidad de Sedimentación Globular</li>
+            <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil 24 Elementos</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Homocisteina</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Proteína C Reactiva Ultrasensible</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;VDRL</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Examen General de Orina</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Coproparasitoscópico (1)</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Citología Cervico-Vaginal<strong style="color:#f19;"> – Mujeres</strong></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Estudios de Gabinete</h3>
+          <ul class="global">
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Telerradiografía de Tórax</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Abdominal Superiorl</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Colposcopia <strong style="color:#f19;"> – Mujeres</strong></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-gabinete-04.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-cardio-pulmonares-01.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>Estudios Cardio-Pulmonares</h3>
+          <ul class="global">
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Electrocardiograma de Reposo</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div class="container contenedorCheckUpsTipos cuarto" id="basico1" >
+    <h2>Check Up Integral Básico 1</h2>
+    <div class="row">
+        <div class="col-md-6">
+          <h3>Estudios Clínicos</h3>
+          <ul class="global">
+            <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Historia Clínica Completa por Médico Internista</li>
+            <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Valoración Oftalmológica</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-clinicos-09.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-laboratorio-01.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>Estudios de Laboratorio</h3>
+          <ul class="global">
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Biometría Hemática con Plaquetas y Velocidad de Sedimentación Globular</li>
+            <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil 24 Elementos</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Homocisteina</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Proteína C Reactiva Ultrasensible</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;VDRL</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Examen General de Orina</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Coproparasitoscópico (1)</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ag. Específico Prostático Total y Libre<strong style="color:#41f;"> – Hombres</strong></li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Citología Cervico-Vaginal<strong style="color:#f19;"> – Mujeres</strong></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Estudios de Gabinete</h3>
+          <ul class="global">
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Telerradiografía de Tórax</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Abdominal Superior</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ultrasonido Abdominal Inferior</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Colposcopia <strong style="color:#f19;"> – Mujeres</strong></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-gabinete-01.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-cardio-pulmonares-02.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3>Estudios Cardio-Pulmonares</h3>
+          <ul class="global">
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Espirometría</li>
+            <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Electrocardiograma de Reposo</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div class="container contenedorCheckUpsTipos quinto" id="basico2" >
+    <h2>Check Up Integral Básico 2</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-clinicos-01.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios Clínicos</h3>
+        <ul class="global">
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Historia Clínica Completa por Médico Internista</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Valoración Oftalmológica</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios de Laboratorio</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Biometría Hemática con Plaquetas y Velocidad de Sedimentación Globular</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil 24 Elementos</li>
+          <li class="modalContenido"><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Perfil Tiroideo</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Homocisteina</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Proteína C Reactiva Ultrasensible</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;VDRL</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Examen General de Orina</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Coproparasitoscópico (1)</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Ag. Específico Prostático Total y Libre <strong style="color:#41f;"> – Hombres</strong></li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Cultivo de Exudado Vaginal <strong style="color:#f19;"> – Mujeres</strong></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-laboratorio-01.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-de-gabinete-02.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios de Gabinete</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Telerradiografía de Tórax</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Placa simple de abdomen</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Colposcopia <strong style="color:#f19;"> – Mujeres</strong></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Estudios Cardio-Pulmonares</h3>
+        <ul class="global">
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Espirometría</li>
+          <li><i class="far fa-check-circle" style="color:#999;"></i>&nbsp;Electrocardiograma de Reposo</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="http://ludi.com.mx/wp-content/uploads/2017/11/check-up-estudios-cardio-pulmonares-05-1.png" alt="">
+      </div>
+    </div>
+  </div>
 </div>
 
 {% endblock %}

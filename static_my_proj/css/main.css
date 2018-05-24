@@ -1860,15 +1860,16 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
   background-size: cover;
   padding-bottom: 80px;
   overflow: hidden;
+  height: 70vh;
   width: 100%;
 }
 .opacityDiv{
   opacity: .5;
   border-right: 100px solid transparent;
-  border-top: 75vh solid #45B649;
+  border-top: 70vh solid #45B649;
   position: absolute;
-  width: 60%;
-  top: 21%;
+  width: 55%;
+  top: 19%;
 
 }
 .infoIntegral{
@@ -1892,6 +1893,7 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
   padding-top: 50px;
   padding-bottom: 50px;
   z-index: 1000;
+  background-color: #fff;
 }
 .sectionTwoIntegral h1{
   font-weight: 600;
@@ -1904,7 +1906,7 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
   background: #ccc;
   color: #fff;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1913,6 +1915,70 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
 .botonIntegral:hover{
   background-color: #bfd000;
 }
+.contenedorCheckUpsTipos{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contenedorCheckUpsTipos h2{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700;
+}
+.contenedorCheckUpsTipos img{
+  width: 105%;
+}
+.contenedorCheckUpsTipos div .col-md-6{
+  margin-top: 100px;
+}
+.unica{
+  margin-top: 20px;
+}
+.unica li{
+  text-align: left;
+  font-family: 'Open Sans',sans-serif;
+  color:#404040;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 5px;
+}
+.global li{
+  text-align: left;
+  font-family: 'Open Sans',sans-serif;
+  color:#404040;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 5px;
+  list-style: none;
+}
+.modalContenido{
+  color: #c3d313 !important;
+  cursor: pointer;
+}
+.modalContenido:hover{
+  color: #ff5627 !important;
+}
+.activeBotones{
+  background-color: #c3d313;
+}
+#mayores40{
+  display: block;
+}
+#menores40{
+  display: none;
+}
+#menores30{
+  display: none;
+}
+#basico1{
+  display: none;
+}
+#basico2{
+  display: none;
+}
+
 
 
 
