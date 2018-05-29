@@ -1157,7 +1157,7 @@ p { color: #ffffff;  }
   padding-left: 20px;
   font-size: 12px;
   color: #818181;
-  border: 1px solid #818181;
+  border: none;
 }
 .formEmpresa select{
   margin-left: 6%;
@@ -1167,7 +1167,7 @@ p { color: #ffffff;  }
   padding-left: 20px;
   font-size: 12px;
   color: #818181;
-  border: 1px solid #818181;
+  border: none;
 }
 .formEmpresa textarea{
   margin-top: 10px;
@@ -1178,7 +1178,7 @@ p { color: #ffffff;  }
   margin-left: 5%;
 
   color: #818181;
-  border: 1px solid #818181;
+  border: none;
   max-height: 200px;
 }
 .botomEmpresa{
@@ -1854,7 +1854,6 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
 
 .sectionIntegral{
   background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/check-up-integral-bgtop.jpg);
-  padding-top: 60px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1863,36 +1862,39 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
   height: 70vh;
   width: 100%;
 }
-.opacityDiv{
-  opacity: .5;
-  border-right: 100px solid transparent;
-  border-top: 70vh solid #45B649;
-  position: absolute;
-  width: 55%;
-  top: 19%;
 
-}
 .infoIntegral{
   margin-bottom: 30px;
-  margin-top: 20px;
 }
-.infoIntegral h1{
+.infoIntegral figure figcaption{
+  position: absolute;
+  top: 0;
+}
+.infoIntegral figure figcaption h1{
   font-size: 36px;
   color: #fff;
   text-align: left;
+  font-weight: 700;
   opacity: 1 !important;
   text-transform: uppercase;
+  margin-left: 30%;
+  margin-top: 10%;
 }
-.infoIntegral h2{
-  font-size: 24px;
+.infoIntegral figure figcaption h2{
+  font-size: 28px;
   color: #fff;
   text-align: left;
   opacity: 1 !important;
+  margin-left: 30%;
+
+}
+.formEmpresa{
+  margin-top: 20px;
 }
 .sectionTwoIntegral{
   padding-top: 50px;
   padding-bottom: 50px;
-  z-index: 1000;
+  z-index: 3000;
   background-color: #fff;
 }
 .sectionTwoIntegral h1{
@@ -1918,11 +1920,17 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
 .contenedorCheckUpsTipos{
   padding-top: 40px;
   padding-bottom: 40px;
+
 }
 .contenedorCheckUpsTipos h2{
   text-align: center;
   margin-top: 30px;
   font-weight: 700;
+}
+.contenedorCheckUpsTipos h3{
+  text-align: center;
+  margin-top: 30px;
+
 }
 .contenedorCheckUpsTipos img{
   width: 105%;
@@ -1979,6 +1987,62 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
   display: none;
 }
 
+.opacityDiv{
+  opacity: .5;
+  border-right: 100px solid transparent;
+  border-top: 75vh solid #45B649;
+  position: absolute;
+  width: 55%;
+  top: 19%;
+
+}
+.sectionPlus{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/check-up-plus-bgtop.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  overflow: hidden;
+  height: 70vh;
+  width: 100%;
+}
+.sectionGenetest{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/check-up-genetest-bgtop.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  overflow: hidden;
+  height: 70vh;
+  width: 100%;
+}
+.sectionTwoGenetest{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sectionTwoGenetest .container{
+  padding-top: 40px;
+}
+.sectionTwoGenetest img{
+  width: 100%;
+}
+.sectionTwoGenetest h1{
+  font-weight: 700;
+  color: #111;
+}
+.sectionTwoGenetest .container .col-md-6 h3{
+  font-weight: 700;
+
+}
+.sectionTwoGenetest p{
+  color: #333333;
+  font-size: 16px;
+}
+.sectionThreeGenetest{
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 
 
