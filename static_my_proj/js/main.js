@@ -76,6 +76,7 @@ $(document).ready(function(){
       $('#basico2').hide();
       $('#mayores40').show();
     });
+
     $('.cuarenta').on('click',function(){
       $('#primeroBoton').css('background-color','#ccc');
       $('#segundoBoton').css('background-color','#bfd000');
@@ -103,6 +104,7 @@ $(document).ready(function(){
       $('#menores40').hide();
       $('#menores30').show();
     });
+
     $('.basicoUno').on('click',function(){
       $('#primeroBoton').css('background-color','#ccc');
       $('#segundoBoton').css('background-color','#ccc');
@@ -116,6 +118,7 @@ $(document).ready(function(){
       $('#menores30').hide();
       $('#basico1').show();
     });
+
     $('.basicoDos').on('click',function(){
       $('#primeroBoton').css('background-color','#ccc');
       $('#segundoBoton').css('background-color','#ccc');
@@ -130,6 +133,38 @@ $(document).ready(function(){
       $('#basico2').show();
     });
 
+    $('#cali').on('mouseenter', function(){
+        $(this).children().css('opacity','1');
+        $('.calid').css('display','none');
+        $('.calidText').css('display','block');
+    });
+    $('#cali').on('mouseleave', function(){
+        $(this).children().css('opacity','.8');
+        $('.calid').css('display','block');
+        $('.calidText').css('display','none');
+    });
+
+    $('#compe').on('mouseenter', function(){
+        $(this).children().css('opacity','1');
+        $('.competen').css('display','none');
+        $('.competenText').css('display','block');
+    });
+    $('#compe').on('mouseleave', function(){
+        $(this).children().css('opacity','.8');
+        $('.competen').css('display','block');
+        $('.competenText').css('display','none');
+    });
+
+    $('#priv').on('mouseenter', function(){
+        $(this).children().css('opacity','1');
+        $('.priva').css('display','none');
+        $('.privaText').css('display','block');
+    });
+    $('#priv').on('mouseleave', function(){
+        $(this).children().css('opacity','.8');
+        $('.priva').css('display','block');
+        $('.privaText').css('display','none');
+    });
 
 
 });

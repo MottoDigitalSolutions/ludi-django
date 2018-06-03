@@ -600,41 +600,10 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 <<<<<<< HEAD
 
 /* NOSOTROS */
-.nosotros-header-container {
-    background-image: url("../images/nosotros/header-background.jpg");
-    min-height:30vh;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-.nosotros-header-title {
-    color:#FFF;
-    text-shadow:1px 1px 2px rgba(0,0,0,.4);
-    font-weight:bold;
-}
 
-.green-circle-icon {
-    color: #bfd000;
-    font-size: 2rem;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px solid #bfd000;
-    padding: 5%;
-}
 
-.green-circle-icon:hover {
-    color: #FFFFFF;
-    background-color: #bfd000;
-}
 
-.green-section {
-    background-color: #bfd000;
-    color:#ffffff!important;
-}
-
-.green-section p{
-    color:#fff;
-}
 
 .filosofias {
     background: url("../images/nosotros/filosofias-1.jpg");
@@ -651,20 +620,6 @@ background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3
 .filosofias h4 {
 
     z-index:10;
-}
-
-
-.orange-overlay {
-    background-color:rgba(255,102,17,0.5);
-    min-height:100%;
-
-}
-
-.orange-overlay:hover {
-    background-color:rgba(255,102,17,0.9);
-    min-height:100%;
-    z-index:1000;
-
 }
 
 body {
@@ -2043,8 +1998,159 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.sectionOneNosotross{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/titulo-ludi-1.jpg);
+  background-color: #bfd000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.sectionOneNosotross h1 {
+    color:#FFF;
+    text-shadow:1px 1px 2px rgba(0,0,0,.4);
+    font-weight:700;
+    font-size: 48px;
+    padding-bottom:30px;
+}
+.sectionTwoNosotross{
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.sectionTwoNosotross h1{
+  color: #333333;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.sectionTwoNosotross p{
+  color: #333333;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 22px;
+}
+.sectionThreeNosotross{
+  background-color: #f5f5f5;
+  padding-bottom: 60px;
+}
+.sectionThreeNosotross h1{
+  color: #333333;
+}
+.sectionThreeNosotross h5{
+  font-size: 24px;
+}
+.sectionThreeNosotross p{
+  color: #333333;
+  font-size: 16px;
+  line-height: 22px;
+}
 
+.green-circle-icon {
+    color: #bfd000;
+    font-size: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #bfd000;
+    padding: 5%;
+}
+
+.green-circle-icon:hover {
+    color: #FFFFFF;
+    background-color: #bfd000;
+}
+
+.green-section {
+    background-color: #bfd000;
+    color:#ffffff!important;
+}
+
+.green-section h1{
+    font-weight: 700;
+}
+.green-section h3{
+  font-weight: 700;
+
+}
+.green-section p{
+    color:#fff;
+}
+.sectionFiveNosotross{
+  background-color: #f5f5f5;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.sectionFiveNosotross h1{
+  text-align: center;
+  font-weight: 700;
+  color: #333333;
+  padding-bottom: 40px;
+}
+.sectionFiveNosotross .calidad{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/filosofias-competencia.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.sectionFiveNosotross .competencia{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/filosofias-calidad.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.sectionFiveNosotross .privacidad{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/filosofias-privacidad.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.orange{
+  position: absolute;
+  background-color: #de6322;
+  opacity: .8;
+  width: 92%;
+  height: 45.5vh;
+  left: 0;
+  -webkit-transition: all .7s; /* Safari */
+  transition: all .7s;
+}
+.sectionFiveNosotross h4{
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  color: #fff;
+  font-weight: 700;
+}
+.sectionFiveNosotross p{
+  position: absolute;
+  left: 5%;
+  top: 16%;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  display: none;
+}
+.sectionSixNosotros{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+.sectionSixNosotros h1{
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 50px;
+  color: #333333;
+}
+.sectionSixNosotros img{
+  width: 100%;
+  margin-bottom: 30px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+  -webkit-transition: all .5s; /* Safari */
+  transition: all .5s;
+}
+.sectionSixNosotros img:hover{
+  filter: none;
+  
+}
 
 
 =======
