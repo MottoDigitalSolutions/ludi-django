@@ -1405,24 +1405,8 @@ p { color: #ffffff;  }
   text-transform: uppercase;
   margin-top: 20px;
 }
-.textoContactoUno div{
-  margin-top: 40px;
-  padding: 15px;
-  width: 18%;
-  margin-left: 40%;
-  border-radius: 50%;
-  border: 2px solid rgb(191, 208, 0);
-}
-.textoContactoUno div i{
-  color: rgb(191, 208, 0);
-  font-size: 24px;
-}
-.textoContactoUno div:hover{
-  background-color: rgb(191, 208, 0);
-}
-.textoContactoUno div i:hover{
-  color: #fff;
-}
+
+
 
 
 .fondoContacto{
@@ -2149,7 +2133,7 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
 }
 .sectionSixNosotros img:hover{
   filter: none;
-  
+
 }
 
 

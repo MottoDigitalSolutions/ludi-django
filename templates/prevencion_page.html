@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
+<div class="items" value="promociones" hidden></div>
 <div class="container-fluid fondoTwoPrevencion"><h1>PREVENCIÓN</h1></div>
 <div class="container-fluid colorPrevencion">
   <h1>¿QUÉ ES UN DIAGNÓSTICO PREVENTIVO?</h1>
@@ -36,23 +37,23 @@
       <h2 class="col-md-12">Llevamos el kit para tu check up hasta tu casa</h2>
       <form class="row formPrevencion">
         <p class="col-md-12">Datos Personales</p>
-        <input class="col-md-5" type="text" name="nombre" placeholder="Nombre" ngModel>
-        <input class="col-md-5" type="text" name="empresa" placeholder="Empresa" ngModel>
-        <input class="col-md-5" type="mail" name="correo" placeholder="Correo" ngModel>
-        <input class="col-md-5" type="num" name="telefono" placeholder="Teléfono" ngModel>
-        <input class="col-md-5" type="number" name="edad" placeholder="Edad" ngModel>
-        <select class="col-md-5" name="genero" placeholder="Genero" ngModel>
+        <input class="col-md-5" type="text" name="nombre" placeholder="Nombre">
+        <input class="col-md-5" type="text" name="empresa" placeholder="Empresa">
+        <input class="col-md-5" type="mail" name="correo" placeholder="Correo">
+        <input class="col-md-5" type="num" name="telefono" placeholder="Teléfono">
+        <input class="col-md-5" type="number" name="edad" placeholder="Edad">
+        <select class="col-md-5" name="genero" placeholder="Genero">
           <option value="hombre">Hombre</option>
           <option value="mujer">Mujer</option>
         </select>
         <p class="col-md-12">¿En qué podemos ayudarte?</p>
-        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="IntegralFunc()" [ngStyle]="{'background-color': IntegralColor}" >Check Up Integral</button>
-        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="PlusFunc()" [ngStyle]="{'background-color': PlusColor}" >Check Up Plus</button>
-        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="EspecialidadFunc()" [ngStyle]="{'background-color': EspecialidadColor}" >Check Up Especialidad</button>
-        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="GenetestFunc()" [ngStyle]="{'background-color': GenetestColor}" >Check Up Genetest</button>
-        <button type="button" class="col-md-3 col-sm-6 botonPrevencion" (click)="EmpresarialFunc()" [ngStyle]="{'background-color': EmpresarialColor}" >Check Up Empresarial</button>
+        <button type="button" class="col-md-3 col-sm-6 boton active">Check Up Integral</button>
+        <button type="button" class="col-md-3 col-sm-6 boton active">Check Up Plus</button>
+        <button type="button" class="col-md-3 col-sm-6 boton active">Check Up Especialidad</button>
+        <button type="button" class="col-md-3 col-sm-6 boton active">Check Up Genetest</button>
+        <button type="button" class="col-md-3 col-sm-6 boton active">Check Up Empresarial</button>
 
-        <textarea class="col-md-12" name="comentario" placeholder="Escribe aqui tus comentarios..." ngModel></textarea>
+        <textarea class="col-md-12" name="comentario" placeholder="Escribe aqui tus comentarios..."></textarea>
         <button type="submit" class="enviar">ENVIAR</button>
         <p class="col-md-12" style="font-size:16px;line-height:22px;font-weight:600;">Al enviar mis datos acepto la <a href="#" class="politica">Politica de Privacidad.</a> </p>
       </form>
